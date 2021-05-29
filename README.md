@@ -74,6 +74,7 @@ $ ln -s "${HOME}/.config/yabai/skhdrc" "${HOME}/.skhdrc"
 | Insert down  | <kbd>shift</kbd> + <kbd>lctrl</kbd> + <kbd>alt</kbd> + <kbd>j</kbd> |
 | Insert up    | <kbd>shift</kbd> + <kbd>lctrl</kbd> + <kbd>alt</kbd> + <kbd>k</kbd> |
 | Insert right | <kbd>shift</kbd> + <kbd>lctrl</kbd> + <kbd>alt</kbd> + <kbd>l</kbd> |
+| Stack        | <kbd>shift</kbd> + <kbd>lctrl</kbd> + <kbd>alt</kbd> + <kbd>s</kbd> |
 
 NOTE: To cancel insertion point, press the last inerstion key combination.
 
