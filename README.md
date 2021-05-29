@@ -127,3 +127,11 @@ Click [here](scripts/open_iterm2.sh) to view the script.
 ```
 alt - return : /path/to/launch/terminal
 ```
+
+
+### Window Stacking
+
+- Yabai also supports stacking windows. Unfortunately there's no indicator to signify how many windows are stacked together. Fortunately, one can opt to use Stackline 
+  - https://github.com/AdamWagner/stackline
+- To get out of stacked mode, float the corresponding window (i.e. alt + shift + space)
+- To stack an already tiled window, first float the window, then unfloat it
