@@ -15,7 +15,10 @@ alt - h : yabai -m window --focus west
 alt - j : yabai -m window --focus south
 alt - k : yabai -m window --focus north
 alt - l : yabai -m window --focus east
+# navigate to window on the next stack
 alt - s : yabai -m window --focus stack.next || yabai -m window --focus stack.first
+# navigate to window on the previous stack
+shift + alt - s : yabai -m window --focus stack.prev || yabai -m window --focus stack.last
 
 # Moving windows
 shift + alt - h : yabai -m window --warp west
@@ -73,6 +76,9 @@ shift + lctrl + alt - r : \
     /usr/bin/env osascript <<< \
         "display notification \"Restarting Yabai\" with title \"Yabai\""; \
     launchctl kickstart -k "gui/${UID}/homebrew.mxcl.yabai"
+
+
+shift + lctrl + alt - l : killall limelight &> /dev/null && limelight &> /dev/null &
 
 # Make window native fullscreen
 alt - f         : yabai -m window --toggle zoom-fullscreen

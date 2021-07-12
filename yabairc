@@ -68,12 +68,20 @@ yabai -m rule --add label="macfeh" app="^macfeh$" manage=off
 yabai -m rule --add label="System Preferences" app="^System Preferences$" title=".*" manage=off
 yabai -m rule --add label="App Store" app="^App Store$" manage=off
 yabai -m rule --add label="Activity Monitor" app="^Activity Monitor$" manage=off
+yabai -m rule --add label="Zoom" app="^Zoom$" manage=off
 yabai -m rule --add label="KeePassXC" app="^KeePassXC$" manage=off
 yabai -m rule --add label="Calculator" app="^Calculator$" manage=off
 yabai -m rule --add label="Dictionary" app="^Dictionary$" manage=off
 yabai -m rule --add label="mpv" app="^mpv$" manage=off
 yabai -m rule --add label="Software Update" title="Software Update" manage=off
 yabai -m rule --add label="About This Mac" app="System Information" title="About This Mac" manage=off
+yabai -m rule --add label="GoLand" app="GoLand" title="Rename" manage=off
+yabai -m rule --add label="GoLand" app="GoLand" title="Move" manage=off
+yabai -m rule --add label="GoLand" app="GoLand" title="Add File to Git" manage=off
+yabai -m rule --add label="GoLand" app="GoLand" title="Merge Revisions for *" manage=off
+yabai -m rule --add label="GoLand" app="GoLand" title="Push Commits to *" manage=off
+yabai -m rule --add label="GoLand" app="GoLand" title="Go to Line/Column*" manage=off
+yabai -m rule --add label="GoLand" app="GoLand" title="Add File to Git" manage=off
 
 # ===== Signals ================================
 
